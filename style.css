@@ -1,0 +1,269 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 12px;
+  background-image: url(1348407.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+a {
+  text-decoration: none;
+  color: rgb(160, 219, 219);
+  font-size: 16px;
+}
+header {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(131, 127, 127, 0.27);
+  padding: 1px;
+  flex-wrap: wrap;
+  font-family: "Montserrat", "Roboto", "Inter", -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+}
+header a {
+  color: white;
+  text-shadow: 0px 0px 5px blue;
+}
+.ht {
+  margin: 18px 0px 0px;
+  font-family: Montserrat, Roboto, Inter, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji";
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  font-size: 45px;
+  background-color: rgba(104, 101, 101, 0.27);
+}
+.css01 {
+  color: rgb(112, 228, 228);
+}
+.css02 {
+  background-color: whitesmoke;
+  flex-wrap: wrap;
+  font-family: Montserrat, Roboto, Inter, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji";
+  text-align: left;
+  line-height: 1.5;
+  font-weight: 700;
+  font-size: 19px;
+}
+element.style {
+  background: rgba(0, 0, 0, 0.79);
+  color: rgb(255, 235, 0);
+  height: 40px;
+  font-size: 16px;
+  animation: 1s ease 0s infinite normal none running color-change;
+  font-weight: bold;
+  --pause-on-hover: running;
+  --pause-on-click: running;
+  --width: 100%;
+  --transform: none;
+}
+.css03 {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: var(--width);
+  transform: var(--transform);
+}
+.css04 {
+  flex: 0 0 auto;
+  min-width: var(--min-width);
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  animation: scroll var(--duration) linear var(--delay) var(--iteration-count);
+  animation-play-state: var(--play);
+  animation-delay: var(--delay);
+  animation-direction: var(--direction);
+}
+.css05 {
+  flex: 0 0 auto;
+  display: flex;
+  min-width: auto;
+  flex-direction: row;
+  align-items: center;
+}
+.css06 {
+  transform: var(--transform);
+}
+.moving-text {
+  position: relative;
+  color: #fff; /* màu sắc ban đầu */
+  animation: moveAndChangeColor 10s infinite; /* thời gian và số lần lặp lại */
+  font-size: 24px; /* kích thước chữ */
+  font-weight: bold; /* độ đậm của chữ */
+}
+
+@keyframes moveAndChangeColor {
+  0% {
+    transform: translateX(100%); /* bắt đầu từ bên phải */
+    color: #fff; /* màu sắc ban đầu */
+  }
+  20% {
+    transform: translateX(0); /* di chuyển sang trái */
+    color: #ff69b4; /* thay đổi màu sắc */
+  }
+  50% {
+    transform: translateX(0); /* dừng lại ở giữa màn hình */
+    color: #ff69b4; /* giữ màu sắc đã thay đổi */
+  }
+  80% {
+    transform: translateX(0); /* dừng lại ở giữa màn hình */
+    color: #ff69b4; /* giữ màu sắc đã thay đổi */
+  }
+  100% {
+    transform: translateX(-100%); /* kết thúc ở bên trái */
+    color: #fff; /* màu sắc ban đầu */
+  }
+}
+.css07 {
+  background-color: rgba(196, 196, 196, 0.158);
+  width: 1200;
+  height: 600;
+  padding: 60px;
+  margin: auto;
+  display: flex;
+}
+.css08 {
+  list-style-type: none;
+  font-size: 40;
+  border: 2px solid white;
+  margin: 1%;
+}
+.css08 h3 {
+  color: #ff69b4;
+  font-size: 40px;
+}
+.css09 {
+  margin: 1%;
+}
+
+.css10 {
+  margin: 1%;
+  width: 300;
+  height: 100;
+  font-size: 19px;
+  color: red;
+  background-color: white;
+}
+.css10 p {
+  text-align: center;
+}
+.css11 {
+  width: 450px;
+  height: 300px;
+  background-color: white;
+  font-size: 20px;
+  text-align: center;
+  flex-wrap: 20px;
+}
+.design {
+  display: flex;
+  width: 1000px;
+  height: 500px;
+  margin: auto;
+  margin-top: 50px;
+}
+.hsign {
+  background-color: antiquewhite;
+  width: 250px;
+  height: 450px;
+  border-radius: 7px;
+}
+.hoyolab {
+  background-color: white;
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 7px;
+}
+.hoyolab p {
+  text-align: center;
+}
+.design1 {
+  width: 700px;
+  height: 500px;
+}
+.design1 h3 {
+  color: black;
+  background-color: white;
+  border-bottom-right-radius: 15px;
+  width: 170px;
+  margin-bottom: 15px;
+}
+.design2 {
+  font-size: 25px;
+  background-color: #fff;
+  width: 700px;
+  margin: auto;
+  margin-bottom: 50px;
+  border-radius: 15px;
+}
+.banacc1 {
+  font-size: 50px;
+  font-family: "Protest Strike", sans-serif;
+  text-align: center;
+  color: white;
+  text-shadow: 0px 0px 5px blue;
+}
+.hoyo {
+  width: 1000px;
+  height: 100px;
+  margin: auto;
+}
+.hoyo1 {
+  font-family: "Arial", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0px 0px 10px rgb(200, 222, 233);
+  text-align: center;
+  width: 75%;
+  height: 75%;
+  margin: auto;
+}
+.acc {
+  width: 350px;
+  height: 400px;
+  background-color: bisque;
+  margin-left: 50px;
+}
+.acc1 {
+  text-align: center;
+  font-size: 50px;
+}
+.thongtin {
+  display: flex;
+  margin-left: 30px;
+  font-size: 15px;
+}
+.thongtin1 {
+  flex-basis: 50%;
+}
+.acc span {
+  color: red;
+}
+.thongtin3 {
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  margin: auto;
+  cursor: pointer;
+}

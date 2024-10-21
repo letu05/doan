@@ -1,0 +1,66 @@
+.css07 {
+  background-color: rgba(196, 196, 196, 0.158);
+  width: 1200;
+  height: 100%;
+  padding: 60px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+}
+.css08 {
+  list-style-type: none;
+  font-size: 40;
+  border: 2px solid white;
+  margin: 1%;
+  height: 100%;
+  width: 25%;
+}
+.css08 h3 {
+  color: #ff69b4;
+  font-size: 40px;
+}
+.css09 {
+  margin: 1%;
+  width: 75%;
+  height: 100%;
+}
+
+.css10 {
+  margin: 1%;
+  width: 300;
+  height: 100;
+  font-size: 19px;
+  color: red;
+  background-color: white;
+}
+.css10 p {
+  text-align: center;
+}
+.css11 {
+  width: 450px;
+  height: 300px;
+  background-color: white;
+  font-size: 20px;
+  text-align: center;
+  flex-wrap: 20px;
+}
+.css12 {
+  width: 300px;
+  height: 100px;
+  font-size: 15px;
+  color: white;
+}
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  height: 50%;
+}
+table,
+th,
+td {
+  border: 1px solid white;
+  color: azure;
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+}

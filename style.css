@@ -227,3 +227,8 @@ element.style {
   margin: auto;
   cursor: pointer;
 }
+.accmenu {
+  width: 100%;
+  height: 400px;
+  display: flex;
+}

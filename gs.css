@@ -1,0 +1,48 @@
+.timkiem {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+  max-width: 1280px;
+  height: auto;
+}
+.timkiemmenu {
+  background-color: bisque;
+  margin: auto;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+.timkiemicon {
+  padding: 15px;
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+}
+.accban {
+  margin-top: 30px;
+  display: flex;
+}
+.accban-menu {
+  padding: 7px;
+  margin: auto;
+  background-color: bisque;
+  margin-right: 15px;
+}
+.accban01 {
+  height: 175px;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.ttacc {
+  display: flex;
+  flex-basis: 50%;
+}
+.ttacc01 {
+  flex-basis: 50%;
+  -webkit-box-flex: 0;
+  flex-grow: 0;
+  max-width: 50%;
+}

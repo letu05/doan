@@ -232,3 +232,66 @@ element.style {
   height: 400px;
   display: flex;
 }
+@media only screen and (max-width: 46.1875em) {
+  header {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .header-menu {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .css03,
+  .design1 {
+    display: none;
+  }
+  .hsign {
+    width: 18%;
+    height: 30%;
+    display: flex;
+  }
+  .design2 {
+    width: 70%;
+    height: 70%;
+  }
+  .hoyo {
+    width: 50%;
+    height: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .accmenu {
+  }
+  .acc1 img {
+    width: 200px;
+    height: 150px;
+  }
+  .thongtin {
+    width: 75px;
+    height: 50px;
+  }
+  .hoyo1 {
+    font-size: 15px;
+  }
+  .acc {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 15px;
+    width: 200px;
+    height: 400px;
+    margin-left: 20px;
+  }
+  .acc h3 {
+    font-size: 15px;
+  }
+  .thongtin {
+    font-size: small;
+  }
+  .thongtin1 {
+    flex-basis: 50%;
+  }
+  .acc1 h4 {
+    font-size: 15px;
+  }
+}
